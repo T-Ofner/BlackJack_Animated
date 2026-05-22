@@ -62,13 +62,10 @@ public class Helper {
 		}
 	}
 
-	public String label(String label) {
-		return label;
-	};
+	public String label(String label) {return label;};
 
 	public String cardName(Rank rank, Suit suit) {
-		return rank.symbol + suit.symbol;
-	}
+		return rank.symbol + suit.symbol;}
 
 	// TODO: implement GameState
 	public enum GameState {
@@ -78,9 +75,7 @@ public class Helper {
 
 		public final int GameValue;
 
-		GameState(int GameValue) {
-			this.GameValue = GameValue;
-		}
+		GameState(int GameValue) {this.GameValue = GameValue;}
 	}
 
 	private enum Rank {
@@ -115,9 +110,7 @@ public class Helper {
 
 		final String symbol;
 
-		Suit(String symbol) {
-			this.symbol = symbol;
-		}
+		Suit(String symbol) {this.symbol = symbol;}
 	}
 
 	public static class Card {
