@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="944b1189-7e99-42fb-87b9-80e7a3c652eb" name="Changes" comment="project structure" />
+    <list default="true" id="944b1189-7e99-42fb-87b9-80e7a3c652eb" name="Changes" comment="Add LICENSE and README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackJack Animated.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BlackJack Animated.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helper/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/BlackJack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +37,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;T-Ofner&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/T-Ofner/BlackJack_Animated.git&quot;,
+    &quot;accountId&quot;: &quot;fc872a78-2f7d-45c2-be65-2324fd947293&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/helper/Helper.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -38,60 +59,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0006904653015019" />
-      <entry key="S2" value="1.3902650019554372" />
-      <entry key="S5" value="2.7310979900450487" />
-      <entry key="S10" value="3.9220377472783388" />
-      <entry key="S30" value="5.174056284420111" />
-      <entry key="S60" value="5.567553609746983" />
-      <entry key="M2" value="5.787787045564615" />
-      <entry key="M5" value="8.753903589526722" />
-      <entry key="M10" value="25.997742766534813" />
-      <entry key="M15" value="44.88419831701305" />
-      <entry key="M30" value="82.55365324351966" />
-      <entry key="H1" value="114.2080052412032" />
-      <entry key="H2" value="134.96533903920073" />
-      <entry key="H4" value="146.89201662726202" />
-      <entry key="D1" value="157.72801359561757" />
-      <entry key="W1" value="159.67321908617657" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000002331454638" />
+      <entry key="S5" value="1.0032700908690608" />
+      <entry key="S10" value="1.1026342552126653" />
+      <entry key="S30" value="2.4002017453056927" />
+      <entry key="S60" value="4.360135517487235" />
+      <entry key="M2" value="6.882159943800648" />
+      <entry key="M5" value="13.201198989717229" />
+      <entry key="M10" value="32.97318814997848" />
+      <entry key="M15" value="58.03059073319102" />
+      <entry key="M30" value="130.17037503249324" />
+      <entry key="H1" value="224.34874103655866" />
+      <entry key="H2" value="308.28720063869184" />
+      <entry key="H4" value="365.90503508276225" />
+      <entry key="D1" value="424.8136175214971" />
+      <entry key="W1" value="436.08510580080804" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="3.550807309837492E-201" />
-      <entry key="S10" value="5.958865084760266E-101" />
-      <entry key="S30" value="3.905900576060261E-34" />
-      <entry key="S60" value="1.9763351375868113E-17" />
-      <entry key="M2" value="4.44559910201852E-9" />
-      <entry key="M5" value="4.56217687094378E-4" />
-      <entry key="M10" value="0.021359252961992353" />
-      <entry key="M15" value="0.07698226876225872" />
-      <entry key="M30" value="0.2774567871980408" />
-      <entry key="H1" value="0.5267416702692517" />
-      <entry key="H2" value="0.7257697088396927" />
-      <entry key="H4" value="0.851921186988379" />
-      <entry key="D1" value="0.9736433527585174" />
-      <entry key="W1" value="0.9961915264166626" />
+      <entry key="MS100" value="5.8726779825943804E-111" />
+      <entry key="MS500" value="8.990156300242925E-23" />
+      <entry key="S2" value="3.110740243649391E-6" />
+      <entry key="S5" value="0.007241365006476419" />
+      <entry key="S10" value="0.11061183900855863" />
+      <entry key="S30" value="0.7452583580234511" />
+      <entry key="S60" value="1.2173363262378742" />
+      <entry key="M2" value="1.5592219950245683" />
+      <entry key="M5" value="1.8306263333951918" />
+      <entry key="M10" value="2.2876561149508645" />
+      <entry key="M15" value="3.0780288935504796" />
+      <entry key="M30" value="5.611617684549671" />
+      <entry key="H1" value="8.732106520480208" />
+      <entry key="H2" value="11.300761404429402" />
+      <entry key="H4" value="12.977548416308082" />
+      <entry key="D1" value="14.635546262557376" />
+      <entry key="W1" value="14.947214817013235" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9526379980439373" />
-      <entry key="MS500" value="0.9910276424827329" />
-      <entry key="S2" value="1.3870607579888226" />
-      <entry key="S5" value="2.728743608486427" />
-      <entry key="S10" value="3.9203818796375187" />
-      <entry key="S30" value="5.1733359183985455" />
-      <entry key="S60" value="5.5671668968424575" />
-      <entry key="M2" value="5.787577138335158" />
-      <entry key="M5" value="8.75369903332485" />
-      <entry key="M10" value="26.017207409038008" />
-      <entry key="M15" value="44.958616791627676" />
-      <entry key="M30" value="82.82824531183059" />
-      <entry key="H1" value="114.73251489688805" />
-      <entry key="H2" value="135.68970063936007" />
-      <entry key="H4" value="147.74314487685018" />
-      <entry key="D1" value="158.70151083456014" />
-      <entry key="W1" value="160.6693893742681" />
+      <entry key="MS100" value="8.326512614921453E-4" />
+      <entry key="MS500" value="0.2421545473066569" />
+      <entry key="S2" value="0.7014948892036375" />
+      <entry key="S5" value="0.8767104200665837" />
+      <entry key="S10" value="1.1282602657228862" />
+      <entry key="S30" value="3.06618128540915" />
+      <entry key="S60" value="5.507485220417583" />
+      <entry key="M2" value="8.39014609135039" />
+      <entry key="M5" value="15.003070589332355" />
+      <entry key="M10" value="35.23880300962797" />
+      <entry key="M15" value="61.08770649386924" />
+      <entry key="M30" value="135.76355749300666" />
+      <entry key="H1" value="233.06717235143407" />
+      <entry key="H2" value="319.5793191609051" />
+      <entry key="H4" value="378.8776704725507" />
+      <entry key="D1" value="439.4482467543418" />
+      <entry key="W1" value="451.0321869635059" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -106,37 +127,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ich/IdeaProjects/BlackJack Animated/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BlackJack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ich/IdeaProjects/BlackJack Animated/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ich\IdeaProjects\BlackJack Animated\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="BlackJack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.BlackJack" />
+      <module name="BlackJack Animated" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <module name="BlackJack Animated" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,6 +232,16 @@
       <option name="RUN_TOOL" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.BlackJack" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BlackJack" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -210,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779468420755</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add LICENSE and README.md">
+      <option name="closed" value="true" />
+      <created>1779470422035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779470422035</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +297,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add IntelliJ project configuration files" />
     <MESSAGE value="project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="project structure" />
+    <MESSAGE value="Add LICENSE and README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LICENSE and README.md" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BlackJack_Animated$Main.ic" NAME="Main Coverage Results" MODIFIED="1779471232024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Main.*</FILTER>
+    </SUITE>
   </component>
 </project>

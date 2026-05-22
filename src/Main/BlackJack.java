@@ -4,8 +4,13 @@
 
 package Main;
 
+import static Helper.Helper.*;
+
 public class BlackJack {
+
 	public BlackJack() {
+
+		println("Hello, World!");
 
 	}
 }
