@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="944b1189-7e99-42fb-87b9-80e7a3c652eb" name="Changes" comment="Add card assets and compiled classes for Blackjack Animated">
+    <list default="true" id="944b1189-7e99-42fb-87b9-80e7a3c652eb" name="Changes" comment="22 May 2026 22:30">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Helper/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/BlackJack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackJack Animated.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BlackJack Animated.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BlackJack Animated/Helper/Helper$Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlackJack Animated/Helper/Helper$Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BlackJack Animated/Helper/Helper$GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlackJack Animated/Helper/Helper$GameState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BlackJack Animated/Helper/Helper$Rank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlackJack Animated/Helper/Helper$Rank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BlackJack Animated/Helper/Helper$Suit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlackJack Animated/Helper/Helper$Suit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BlackJack Animated/Helper/Helper$TableBackground.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlackJack Animated/Helper/Helper$TableBackground.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BlackJack Animated/Helper/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlackJack Animated/Helper/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BlackJack Animated/Main/BlackJack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlackJack Animated/Main/BlackJack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BlackJack Animated/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlackJack Animated/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helper/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BlackJack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,60 +67,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000576541621" />
-      <entry key="S2" value="1.015495574180559" />
-      <entry key="S5" value="1.1890593450671982" />
-      <entry key="S10" value="1.4571212637771471" />
-      <entry key="S30" value="2.4289372179935858" />
-      <entry key="S60" value="3.879214034877309" />
-      <entry key="M2" value="6.591410633977588" />
-      <entry key="M5" value="15.695215096967754" />
-      <entry key="M10" value="32.235189115297594" />
-      <entry key="M15" value="51.91613579666496" />
-      <entry key="M30" value="117.28869750886429" />
-      <entry key="H1" value="217.8475919888564" />
-      <entry key="H2" value="317.69961987867725" />
-      <entry key="H4" value="390.59407397410445" />
-      <entry key="D1" value="468.22922161553623" />
-      <entry key="W1" value="483.4108602898274" />
+      <entry key="MS500" value="1.0000007069094123" />
+      <entry key="S2" value="1.0309350060496743" />
+      <entry key="S5" value="1.3369192181110088" />
+      <entry key="S10" value="2.056958312293922" />
+      <entry key="S30" value="5.485512515057317" />
+      <entry key="S60" value="9.269850481291071" />
+      <entry key="M2" value="13.685779467988834" />
+      <entry key="M5" value="21.2314341700819" />
+      <entry key="M10" value="38.69838006069127" />
+      <entry key="M15" value="60.02271333034129" />
+      <entry key="M30" value="128.24696235930352" />
+      <entry key="H1" value="241.03744239178437" />
+      <entry key="H2" value="364.49889537887253" />
+      <entry key="H4" value="460.9055291674453" />
+      <entry key="D1" value="568.6588138717927" />
+      <entry key="W1" value="590.2928783905805" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="4.858644053880682E-187" />
-      <entry key="MS500" value="5.461387811237788E-38" />
-      <entry key="S2" value="4.834212691257975E-10" />
-      <entry key="S5" value="1.8781502355460665E-4" />
-      <entry key="S10" value="0.013708003762823039" />
-      <entry key="S30" value="0.25441851435598023" />
-      <entry key="S60" value="0.6171698504548896" />
-      <entry key="M2" value="1.1519443620960452" />
-      <entry key="M5" value="2.225571213357788" />
-      <entry key="M10" value="3.3650401672338823" />
-      <entry key="M15" value="4.3161768006653976" />
-      <entry key="M30" value="6.977970971315721" />
-      <entry key="H1" value="10.591225560243085" />
-      <entry key="H2" value="13.871805361504121" />
-      <entry key="H4" value="16.142228614859757" />
-      <entry key="D1" value="18.47598585131185" />
-      <entry key="W1" value="18.923868046130075" />
+      <entry key="MS100" value="1.0885075179422957E-162" />
+      <entry key="MS500" value="4.0491725738687346E-33" />
+      <entry key="S2" value="7.995271346120878E-9" />
+      <entry key="S5" value="6.270563276381836E-4" />
+      <entry key="S10" value="0.031311509723956445" />
+      <entry key="S30" value="0.6101389145481987" />
+      <entry key="S60" value="1.6982503337241057" />
+      <entry key="M2" value="3.22966984018366" />
+      <entry key="M5" value="5.4171730075825835" />
+      <entry key="M10" value="7.21417837618306" />
+      <entry key="M15" value="8.517441505676576" />
+      <entry key="M30" value="11.698544033535823" />
+      <entry key="H1" value="16.125704112729398" />
+      <entry key="H2" value="20.504808950952373" />
+      <entry key="H4" value="23.73132100507205" />
+      <entry key="D1" value="27.200885183400487" />
+      <entry key="W1" value="27.883457533945577" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="6.670118441183568E-4" />
-      <entry key="MS500" value="0.2316470156232511" />
-      <entry key="S2" value="0.697259350335841" />
-      <entry key="S5" value="0.9685039277747204" />
-      <entry key="S10" value="1.2873373655730653" />
-      <entry key="S30" value="2.5769304928658108" />
-      <entry key="S60" value="4.420129066078706" />
-      <entry key="M2" value="7.68231848530615" />
-      <entry key="M5" value="17.869035309704152" />
-      <entry key="M10" value="35.55509358195365" />
-      <entry key="M15" value="56.191899013959485" />
-      <entry key="M30" value="124.23504066374315" />
-      <entry key="H1" value="228.41664323780827" />
-      <entry key="H2" value="331.5576711510099" />
-      <entry key="H4" value="406.7285278315497" />
-      <entry key="D1" value="486.7037596653089" />
-      <entry key="W1" value="502.3345173581212" />
+      <entry key="MS100" value="4.443106027482814E-6" />
+      <entry key="MS500" value="0.08502387254637721" />
+      <entry key="S2" value="0.569877273637727" />
+      <entry key="S5" value="1.0993805545066158" />
+      <entry key="S10" value="1.9270940350754975" />
+      <entry key="S30" value="5.975390216028985" />
+      <entry key="S60" value="10.853439965283956" />
+      <entry key="M2" value="16.817688368585323" />
+      <entry key="M5" value="26.588077073870068" />
+      <entry key="M10" value="45.870920542449134" />
+      <entry key="M15" value="68.50411031610918" />
+      <entry key="M30" value="139.91551919155577" />
+      <entry key="H1" value="257.14006448005114" />
+      <entry key="H2" value="384.9883757962062" />
+      <entry key="H4" value="484.6278303416456" />
+      <entry key="D1" value="595.857956671955" />
+      <entry key="W1" value="618.1760803430387" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -159,11 +169,11 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="BlackJack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.BlackJack" />
+      <option name="MAIN_CLASS_NAME" value="main.BlackJack" />
       <module name="BlackJack Animated" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +182,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="BlackJack Animated" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,7 +268,8 @@
       <updated>1779464786461</updated>
       <workItem from="1779464787511" duration="2860000" />
       <workItem from="1779468576425" duration="48000" />
-      <workItem from="1779480396180" duration="1382000" />
+      <workItem from="1779480396180" duration="1458000" />
+      <workItem from="1779556621680" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="project structure">
       <option name="closed" value="true" />
@@ -284,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779474397302</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="22 May 2026 22:30">
+      <option name="closed" value="true" />
+      <created>1779481816754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779481816755</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +326,9 @@
     <MESSAGE value="Add LICENSE and README.md" />
     <MESSAGE value="Set up project structure and add initial game components" />
     <MESSAGE value="78tzu39hg" />
-    <option name="LAST_COMMIT_MESSAGE" value="78tzu39hg" />
+    <MESSAGE value="Add card assets and compiled classes for Blackjack Animated" />
+    <MESSAGE value="22 May 2026 22:30" />
+    <option name="LAST_COMMIT_MESSAGE" value="22 May 2026 22:30" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BlackJack_Animated$Main.ic" NAME="Main Coverage Results" MODIFIED="1779471232024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

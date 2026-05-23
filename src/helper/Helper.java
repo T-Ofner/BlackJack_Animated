@@ -2,9 +2,7 @@
 // Created by ich on 22 May 2026
 //
 
-package Helper;
-
-import Main.BlackJack;
+package helper;
 
 import java.awt.*;
 
@@ -56,13 +54,20 @@ public class Helper {
 		final String label;
 		final Color color;
 
+		@Override
+		public String toString() {
+			return label;
+		}
+
+		public Color getColor() {
+			return color;
+		}
+
 		TableBackground(String label, Color color) {
 			this.label = label;
 			this.color = color;
 		}
 	}
-
-	public String label(String label) {return label;};
 
 	public String cardName(Rank rank, Suit suit) {
 		return rank.symbol + suit.symbol;}
@@ -78,7 +83,7 @@ public class Helper {
 		GameState(int GameValue) {this.GameValue = GameValue;}
 	}
 
-	private enum Rank {
+	public enum Rank {
 		ACE("A", 11),
 		TWO("2", 2),
 		THREE("3", 3),
@@ -116,6 +121,11 @@ public class Helper {
 	public static class Card {
 		Rank rank;
 		Suit suit;
+
+		@Override
+		public String toString() {
+			return rank.symbol + "-" + suit.symbol;
+		}
 
 		Card(Rank rank, Suit suit) {
 			this.rank = rank;

@@ -2,14 +2,16 @@
 // Created by ich on 22 May 2026
 //
 
-package Main;
+package main;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Random;
 
-import static Helper.Helper.*;
+import static helper.Helper.*;
 
 public class BlackJack {
 
@@ -41,11 +43,29 @@ public class BlackJack {
 	JButton resetButton = new JButton("Reset");
 
 	// dropdown menu for backgroundMenuPanel or smth
-	JComboBox<TableBackground> backgroundColorMenu = new JComboBox<>(TableBackground.values());		// ai
+	JComboBox<TableBackground> backgroundColorMenu = new JComboBox<>(TableBackground.values());		// scroll menu
+
+	// actual UI panel
+	JPanel gamePanel = new JPanel() {
+
+		@Override
+		public void paintComponent(Graphics graphics) {
+			super.paintComponent(graphics);
+
+			try {
+				
+
+
+			} catch (Exception e)
+			{e.printStackTrace();}
+		}
+
+	};
+
 
 	public BlackJack() {
 
-		println("Hello, World!");
+
 
 	}
 }
