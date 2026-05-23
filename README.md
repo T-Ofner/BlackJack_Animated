@@ -14,8 +14,7 @@ Going over `21` is a bust.
 |--------------|--------------------------------------------------|
 | `Hit`        | Draws one card for the player.                   |
 | `Stay`       | Ends the player's turn and lets the dealer draw. |
-| `Reset`      | Starts a fresh round with a new shuffled deck.   |
-| `Background` | Changes the table color.                         |
+| `Reset`      | Starts a fresh round with a new shuffled deck.   |                        
 
 ## Round Flow
 
